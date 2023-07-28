@@ -1,7 +1,7 @@
 const initialState = {
   isActive: false,
+  isPlaying: false,
 	currentIdx: 0,
-	isPlaying: false,
 	playlist: [
 		{
 			id: 1,

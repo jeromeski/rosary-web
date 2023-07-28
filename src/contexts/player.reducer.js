@@ -14,7 +14,6 @@ const PLAY = "PLAY";
 const playerReducer = produce((draft, action) => {
   switch (action.type) {
     case START:
-      draft.isActive = true;
       draft.isPlaying = true;
       break;
     case INCREASE:
